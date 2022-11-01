@@ -1,0 +1,22 @@
+.header {
+    width: 0px;
+
+
+    &__menu {
+        display: none;
+    }
+
+    &__burgerMenu {
+        display: block;
+        margin: 20px;
+    }
+
+}
+
+.header__logo {
+    height: 300px;
+
+    &__top {
+        display: none;
+    }
+}

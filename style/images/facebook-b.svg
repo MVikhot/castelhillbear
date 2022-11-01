@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 288" width="288" height="288">
+	<title>facebook-svg</title>
+	<defs>
+		<image  width="125" height="241" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAADxBAMAAAAU3KW1AAAAAXNSR0IB2cksfwAAAB5QTFRFAAAAAAAA////////////////////////////////yDSziAAAAAp0Uk5TAP8ECQ0GEBEwAxNRQOUAAAD1SURBVHic7dbBDcIwEERROCA4BokGKIESKIWOKJkLJ4h3P1otJOLPOU+zsWXZm82Xsj2+poSfmRAfaeaH5cyfAw58pIG/1Hz078BnPPMZT3zKY59On/ichx7Uhx7wyJP6yBMeeFQfeMTHntX3ecaHHta3eci7PB2/y1Pe5PH4Tf5a9Jj3+F3R8+Vbpr8VfUxmd4z6HIce8bFnfP/RYr3nUKsfbj+sH3rIuzwdf6mecr1er9fr9fpmP/8xzZ/7U9FP+lX7e9FXz5/+p37S/7Wv3p/6VftJv2q/iPe3Xq/X6/V6vV6v1+v1er1er9fr9Xq9Xr8g/wAAe/0F5dSPCAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<g id="SvgjsG1008">
+		<g id="Layer 1">
+			<use id="Layer" href="#img1" x="79" y="23"/>
+		</g>
+	</g>
+</svg>

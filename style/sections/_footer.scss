@@ -1,0 +1,70 @@
+.footer {
+    margin: 0 auto;
+    width: 100%;
+    height: 260px;
+    background-color: black;
+
+    &__container {
+        margin: 0 auto;
+        padding-top: 20px;
+        width: 940px;
+        height: 224px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+
+        & h2 {
+            color: $main-color;
+            @include font ('Montserrat', 36px, 300);
+        }
+
+        & h3 {
+            color: $main-color;
+            @include font ('Montserrat', 26px, 300);
+        }
+
+        & ul {
+            color: #444444;
+            @include font ('Montserrat', 14px, 700);
+        }
+
+        &__menu {
+            margin-right: 150px;
+            width: 100%;
+            height: 64px;
+            display: flex;
+            justify-content: center;
+
+            .fb {
+                background-image: url('./images/facebook-b.svg')
+            }
+
+            & a {
+                width: 64px;
+                height: 64px;
+                border-radius: 50px;
+                margin-right: 10px;
+                margin-left: 10px;
+
+                background: {
+                    image: url('./images/instagram-b.svg');
+                    position: center;
+                    size: 65%;
+                    repeat: no-repeat;
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+
+    &__logo {
+        @include menu-item (110px, 43px);
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: black;
+        @include font ('Montserrat', 10px, 700);
+    }
+}

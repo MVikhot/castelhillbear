@@ -1,0 +1,175 @@
+.section__5 {
+    width: 100%;
+    background-color: #f5f5f5;
+
+    &__cover {
+        margin: 0 auto;
+        width: 1200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: flex-start;
+
+        &__beer {
+            text-decoration: none;
+            color: #000000;
+            padding: 10px;
+            width: 360px;
+            height: 760px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            & .photo {
+                display: block;
+
+                &__b1 {
+                    height: 400px;
+
+                    background: {
+                        image: url('./images/beer/beer1.png');
+                        position: center;
+                        size: cover;
+                        repeat: no-repeat;
+                    }
+                }
+
+                &__b2 {
+                    height: 400px;
+
+                    background: {
+                        image: url('./images/beer/beer2.png');
+                        position: center;
+                        size: cover;
+                        repeat: no-repeat;
+                    }
+                }
+
+                &__b3 {
+                    height: 400px;
+
+                    background: {
+                        image: url('./images/beer/beer3.png');
+                        position: center;
+                        size: cover;
+                        repeat: no-repeat;
+                    }
+                }
+
+                &__b4 {
+                    height: 400px;
+
+                    background: {
+                        image: url('./images/beer/beer4.png');
+                        position: center;
+                        size: cover;
+                        repeat: no-repeat;
+                    }
+                }
+
+                &__s1 {
+                    height: 400px;
+
+                    background: {
+                        image: url('./images/style/first_item.jpeg');
+                        position: center;
+                        size: cover;
+                        repeat: no-repeat;
+                    }
+                }
+
+                &__s1:hover {
+                    background: {
+                        image: url('./images/style/first_item_h.jpeg');
+                    }
+                }
+
+                &__s2 {
+                    height: 400px;
+
+                    background: {
+                        image: url('./images/style/second_item.jpeg');
+                        position: center;
+                        size: cover;
+                        repeat: no-repeat;
+                    }
+                }
+
+                &__s2:hover {
+                    background: {
+                        image: url('./images/style/second_item_h.jpeg');
+                    }
+                }
+
+                &__s3 {
+                    height: 400px;
+
+                    background: {
+                        image: url('./images/style/third_item.jpeg');
+                        position: center;
+                        size: cover;
+                        repeat: no-repeat;
+                    }
+                }
+
+                &__s3:hover {
+                    background: {
+                        image: url('./images/style/third_item_h.jpeg');
+                    }
+                }
+
+                &__s4 {
+                    height: 400px;
+
+                    background: {
+                        image: url('./images/style/four_item.jpeg');
+                        position: center;
+                        size: cover;
+                        repeat: no-repeat;
+                    }
+                }
+
+                &__s4:hover {
+                    background: {
+                        image: url('./images/style/four_item_h.jpeg');
+                    }
+                }
+
+
+
+            }
+
+        }
+    }
+
+    & h3 {
+        font-size: 14px;
+        line-height: 1.35;
+    }
+
+    & h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.55;
+    }
+
+    & p {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+
+    &__button {
+        line-height: 25px;
+        text-align: center;
+        padding: 10px;
+        width: 110px;
+        height: 45px;
+        color: $main-color;
+        background-color: #000000;
+        border-radius: 5px;
+
+
+    }
+}

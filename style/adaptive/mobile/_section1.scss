@@ -1,0 +1,14 @@
+.section__1 {
+    &__cover {
+        &__step {
+            flex-direction: column;
+
+            &__1,
+            &__2,
+            &__3 {
+                width: 100%;
+                background-position-y: -65px;
+            }
+        }
+    }
+}
